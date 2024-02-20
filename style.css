@@ -112,7 +112,22 @@ a {
 @media (min-width: 200px){
 	 .cards { grid-template-columns: 1fr;
 }
+ 
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+}
 
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+}
 
 
 
